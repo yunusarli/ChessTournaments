@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+}
+nav form{
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav form .group{
+    width: 16%;
+    height: 70%;
+    font-size: 20px;
+    text-align: left;
+}
+
+nav form .group input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#ekle{
+    border: 2px solid white;
+    color: white;
+    background-color: aqua;
+}
+#ekle:hover{
+    color: aqua;
+    background-color: white;
+}
+.table{
+    width: 100%;
+    padding: 50px 100px;
+    background-color: rgb(234, 238, 199);
+    text-align: center;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr th{
+    padding: 8px 16px;
+    text-align: left;
+    border: 2px solid #dddddd;
+    font-size: 20px;
+}
+table tr td{
+    padding: 8px 16px;
+    border: 2px solid #dddddd;
+    font-size: 20px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.start{
+    background: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+    outline: 0;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+    padding: 8px 16px;
+    cursor: pointer;
+    transform: translate(0,0);
+}
+.start:active{
+    transform: translate(0,5px);
+}
+.competitions{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.players{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(234, 238, 199);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.first,.second{
+    padding: 30px 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.first{
+    background-color: black;
+    color: white;
+    width: 35%;
+}
+.second{
+    background-color: white;
+    color: black;
+    width: 35%;
+}
+.whowins{
+    width: 20%;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.onaylama{
+    width: 10%;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    color: white;
+    background-color: aqua;
+    cursor: pointer;
+    transform: translate(0,0);
+}
+
+.onaylama:active{
+    transform: translate(0,5px);
+    background-color: white;
+    color: aqua;
+}
+
+.rank{
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%,-0);
+    width: 200px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aqua;
+    background-color: transparent;
+    border: 2px solid aqua;
+    margin-bottom: 100px;
+}
+.rank:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.sorting{
+    width: 100%;
+    padding: 50px 100px;
+    background-color: transparent;
+    text-align: center;
+}
